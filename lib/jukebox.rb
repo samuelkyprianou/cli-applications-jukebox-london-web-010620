@@ -58,6 +58,8 @@ def run(songs)
     command = gets.strip
   else
     puts "Invalid command"
+    help
+    command = gets.strip
 end
 end
 exit_jukebox
