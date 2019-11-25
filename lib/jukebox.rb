@@ -49,10 +49,13 @@ def run(songs)
   while command != "exit" do
     if command == "help"
       help
+      command = gets.strip
     elsif command == "list"
     list(songs)
+    command = gets.strip
     elsif command == "play"
     play(songs)
+    command = gets.strip
 end
 end
 exit_jukebox
