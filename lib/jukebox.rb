@@ -54,5 +54,6 @@ def run(songs)
     elsif command == "play"
     play(songs)
 end
+end
 exit_jukebox
 end
